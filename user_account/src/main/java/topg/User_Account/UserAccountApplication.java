@@ -1,0 +1,16 @@
+package topg.User_Account;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@SpringBootApplication
+@EnableDiscoveryClient
+
+public class UserAccountApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(UserAccountApplication.class, args);
+	}
+
+}
